@@ -33,8 +33,9 @@ All action happens in the `public` directory, so let's have a look at its struct
 public
 ├── 200.jade
 ├── _build                          # main _build directory for global app stuff
-│   ├── app.config.module.js        # Example 'app.config' module
-│   ├── app.config.module.spec.js   # Put your unit tests here too, Karma will find them for you
+│   ├── _bootstrap.less             # Enable/disable Bootstrap 3 modules you need
+│   ├── _mixins.less                # Place to put your custom mixins
+│   ├── _variables.less             # Customize the Bootstrap 3 variables
 │   ├── app.config.router.js        # Configure the router
 │   ├── app.less                    # Global app styles that you want Gulp to add to /public/build/css/app.css
 │   ├── app.module.js               # Main 'app' module
